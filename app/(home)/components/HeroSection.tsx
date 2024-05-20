@@ -31,7 +31,7 @@ export default function HeroSection() {
           </div>
         </Link>
       </div>
-      <div className="w-72 h-72 space-y-3 -rotate-[30deg]">
+      <div className="w-72 h-72 space-y-3 -rotate-[30deg] relative">
         <div className="flex gap-3 translate-x-8">
           <div className="w-32 h-32 rounded-2xl bg-green-500"></div>
           <div className="w-32 h-32 rounded-full bg-indigo-500"></div>
@@ -40,6 +40,7 @@ export default function HeroSection() {
           <div className="w-32 h-32 rounded-2xl bg-indigo-500"></div>
           <div className="w-32 h-32 rounded-full bg-green-500"></div>
         </div>
+        <div className="glow absolute top-[40%] right-1/2 -z-10"></div>
       </div>
     </div>
   );
