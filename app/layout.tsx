@@ -13,7 +13,8 @@ export const metadata: Metadata = {
   authors: {
     name: 'Dhairya'
   },
-
+  description:
+    "Based in India, I'm a FullStack Developer passionate about building a modern web application that users love.",
   openGraph: {
     title: 'Dhairya',
     description:
