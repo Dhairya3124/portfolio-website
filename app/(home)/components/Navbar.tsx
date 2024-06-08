@@ -22,7 +22,7 @@ export default function Navbar({ className }: { className?: string }) {
     }
   ];
   return (
-    <nav className={cn("py-10 flex justify-between items-center",className)}>
+    <nav className={cn("py-10 flex justify-between items-center animate-move-down",className)}>
       <h1 className="text-2xl font-bold underline underline-offset-8 decoration-green-500 -rotate-2">
         Dhairya 🧑🏻‍💻
       </h1>
