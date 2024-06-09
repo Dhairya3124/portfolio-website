@@ -7,7 +7,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   //Added localhost url before production
-  metadataBase: new URL('http://localhost:3000/'),
+  metadataBase: new URL('https://dhairya-khanna.vercel.app/'),
 
   title: 'Dhairya',
   authors: {
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: 'Dhairya',
     description:
       "Based in India, I'm a FullStack Developer passionate about building a modern web application that users love.",
-    url: 'http://localhost:3000/',
+    url: 'https://dhairya-khanna.vercel.app/',
     siteName: 'Dhairya',
     type: 'website'
   },
