@@ -23,7 +23,7 @@ export default function Projects() {
       tech: [SiTypescript,SiNextdotjs,SiTailwindcss,SiShadcnui],
       link: 'https://github.com/Dhairya3124/portfolio-website',
       cover: '/project-3.png',
-      background: 'bg-indigo-500'
+      background: 'bg-blue-500'
     },
     {
       title: 'WikiDataComplete(GsoC 2021)',
