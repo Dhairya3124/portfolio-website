@@ -4,9 +4,12 @@ import {
   SiFlask,
   SiHtml5,
   SiJavascript,
+  SiNextdotjs,
   SiPostgresql,
   SiPython,
-  SiTailwindcss
+  SiShadcnui,
+  SiTailwindcss,
+  SiTypescript
 } from 'react-icons/si';
 import Title from './Title';
 import Link from 'next/link';
@@ -15,6 +18,13 @@ import { DirectionAwareHover } from '@/components/ui/direction-aware-hover';
 
 export default function Projects() {
   const projects = [
+    {
+      title: 'Portfolio Website',
+      tech: [SiTypescript,SiNextdotjs,SiTailwindcss,SiShadcnui],
+      link: 'https://github.com/Dhairya3124/portfolio-website',
+      cover: '/project-3.png',
+      background: 'bg-indigo-500'
+    },
     {
       title: 'WikiDataComplete(GsoC 2021)',
       tech: [SiJavascript, SiHtml5, SiCss3],
